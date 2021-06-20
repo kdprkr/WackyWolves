@@ -56,7 +56,7 @@
 }
 
 #summernote-form{
-    color: gray;
+    color: #DDDDDD;
 }
 
 /* PROGRESS BARS */
@@ -82,7 +82,7 @@ div.progress-bar.bg-success{
 }
 
 div.progress{
-    background-color: gray !important;
+    background-color: #DDDDDD !important;
 }
 
 div.floatright a{ /* changes the 'view all' in the top right of recent friends */
