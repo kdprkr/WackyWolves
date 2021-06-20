@@ -21,8 +21,7 @@
 /* affects the "edit account settings" */
 
 .card-body, .card{ /* the cards on your profile (also for some reason account settings buttons?) */
-    background-image: linear-gradient(#000000c2, #000000c2), url("https://images.pexels.com/photos/2931270/pexels-photo-2931270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); /* there are technically 2 backgrounds at once here, the linear gradient is only used to make the image darker. you can remove it if you just want a single image */
-    background-size: cover;
+    background-color: #756bb1;
 }
 
 .card{
