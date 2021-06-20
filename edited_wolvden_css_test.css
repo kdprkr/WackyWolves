@@ -21,7 +21,7 @@
 /* affects the "edit account settings" */
 
 .card-body, .card{ /* the cards on your profile (also for some reason account settings buttons?) */
-    background-color: #756bb1;
+    background-color: #756bb1 !important;
 }
 
 .card{
