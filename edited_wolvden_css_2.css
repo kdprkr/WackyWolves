@@ -1,0 +1,105 @@
+/* DEN: changes the background underlay for the whole page background-image - background-color */
+body{
+}
+
+/* DEN: changes the main box underlay of the Den (not the background underlay) */
+div#main, div#sidebar{
+    background-color: #F22100;
+}
+
+/* DEN: changes the alert banners */
+.alert-info{ 
+    color: #000000 !important;
+    background-color: #b2abd2; /* light purple */
+    border: 2px solid #6f6f6f !important; 
+}
+
+/* DEN: changes the links alert banners */
+.alert-info a{
+    color: #f7f7f7 !important;
+}
+
+/* DEN: changes the color of 'Den Options' */
+h2{ 
+    color: #5e3c99; /* dark purple */
+}
+
+/* changes the font color of text under 'Den Options' */
+#summernote-form{
+    color: #b2abd2; /* light purple */
+}
+
+/* DEN: alters the cards on the den profile */
+.card-body, .card{ 
+    background-color: #ffffff !important;
+}
+
+/* DEN: changes the border around? or under? the cards */
+.card{
+    border: 2px solid #6f6f6f !important; 
+    color: #000000;
+}
+
+/* DEN: hides the border bar below the pack leader avatar */
+.card-body.pt-1.pb-1{
+    display: none;
+}
+
+/* DEN: changes the color of the top portion of a table */
+tr.subheader{ 
+    background-color: #b2abd2 !important; /* light purple */
+}
+
+/* DEN: changes the color of the bottom portion of a table */
+td.bottom{ 
+    background-color: #b2abd2 !important; /* light purple */
+}
+
+.card.text-center{ /* change the color of the buttons for pack dynasty, nesting, overview and breeding */
+    background-color: #5e3c99 !important;
+}
+
+/* DEN: changes the color of the progress bars */
+div.progress-bar.bg-warning{
+    background-color: #F0AD4E !important; /* affects the color for ENERGY BAR */
+}
+
+div.progress-bar.bg-danger{
+    background-color: #D9534F !important; /* affects the color for HUNGER BAR */
+}
+
+div.progress-bar.bg-info{
+    background-color: #057CB3 !important; /* affects the color for HP BAR */
+}
+
+.progress-bar.bg-primary{
+    background-color: #395F71 !important; /* affects the color for the MOOD BAR */
+}
+
+div.progress-bar.bg-success{
+    background-color: #78A64B !important; /* affects the color for EXP BAR and pup survival */
+}
+
+div.progress{
+    background-color: #C9C9C9 !important;
+}
+
+/* TABLES */
+
+/* DEN: changes the main table (i.e. the Caves?) */
+tbody{
+    border: 2px solid #6f6f6f; 
+    color: #000000;
+}
+
+/* DEN: changes the header portion of the table */
+th{
+    background-color: #252525 !important;
+}
+
+/* DEN: changes the color of every other row of the table */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #DDDDDD
+}
+
+.mt-3 th:after{float:right;content: "theme by Kallisto #44595"; opacity: 0.25;}
